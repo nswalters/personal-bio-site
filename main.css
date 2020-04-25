@@ -15,8 +15,11 @@ nav {
   display: flex;
   align-items: center;
   background: darkgray;
-  text-shadow: 1px 1px black;
   color: white;
+}
+
+.shadow {
+  text-shadow: 1px 1px black;
 }
 
 nav h2 i {
@@ -38,6 +41,7 @@ nav h2 i {
   padding: 0;
   padding-left: 10px;
   overflow: hidden;
+  font-size: 1.25rem;
 }
 
 #navLinks li:hover {
