@@ -1,17 +1,64 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Bio Site</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nichols Walters - Portfolio</title>
   <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-  <h1>My Personal Biography Site</h1>
+  <div class="container">
+    <div class="mainWrap">
+      <nav>
+        <div class="nav-brand">
+          <h2 class="shadow"><i class="fas fa-robot"></i>Nicholas Walters</h2>
+        </div>
+        <ul class="shadow" id="navLinks">
+          <li><a id="navToBio">Bio</a></li>
+          <li><a id="navToTechnologies">Technologies</a></li>
+          <li><a id="navToProjects">Projects</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="fullPage" id="bioPage">
+          <p>Biography Info goes here!</p>
+        </div>
+        <div class="fullPage" id="technologiesPage">
+          <h2>Tools and Technologies Uses so Far:</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+        <div class="fullPage" id="projectsPage"></div>
+      </main>
+    </div>
+    <footer class="page-footer">
+      <ul id="footerLinks">
+        <a href="mailto:nswalters.s@gmail.com">
+          <li>
+            <h3><i class="fas fa-envelope-square fa-3x"></i>Email Me</h3>
+          </li>
+        </a>
+        <a href="https://www.linkedin.com/in/nswalters/">
+          <li>
+            <h3><i class="fab fa-linkedin fa-3x"></i>Find me on LinkedIn</h3>
+          </li>
+        </a>
+        <a href="https://github.com/nswalters">
+          <li>
+            <h3><i class="fab fa-linkedin fa-3x"></i>Find me on GitHub</h3>
+          </li>
+        </a>
+      </ul>
+    </footer>
+  </div>
 
-  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/97364dc1e8.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

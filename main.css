@@ -1,3 +1,155 @@
-body {
-  background-color: mintcream;
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+.content {
+  min-height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.shadow {
+  
+}
+
+.clearFloat {
+  clear: left;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: darkgray;
+  font-size: small;
+}
+
+#footerLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footerLinks h3 {
+  display: flex;
+  align-items: center;
+}
+
+#footerLinks h3 i {
+  padding: 15px;
+}
+
+#footerLinks h3 a {
+  padding: 10px;
+}
+
+.contentWrap {
+  flex: 1 0 auto;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+  background: lightgreen;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: darkgray;
+  text-shadow: 1px 1px black;
+  color: white;
+}
+
+nav h2 i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-brand {
+  align-self: center;
+  justify-self: center;
+  padding: 14px 16px;
+  border-right: 2px solid rgba(119, 119, 119, 0.5);
+  border-radius: 15px;
+}
+
+#navLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+#navLinks li:hover {
+  background-color: lightgray;
+}
+
+#navLinks li {
+  float: left;
+}
+
+#navLinks a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.mainWrap {
+  flex: 1 0 auto;
+}
+
+.page-footer {
+  background: darkgray;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#footerLinks {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#footerLinks li {
+  padding-left: 389px;
+  padding-right: 389px;
+}
+
+#footerLinks li:hover {
+  background: lightgray;
+}
+
+#footerLinks h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#footerLinks h3 i {
+  padding: 15px;
+}
+
+#footerLinks a {
+  text-decoration: none;
+  color: white;
 }
