@@ -129,6 +129,10 @@ nav h2 i {
   #footerLinks h3 {
     text-align: center;
   }
+
+  .nav-brand i {
+    display: none;
+  }
 }
 
 /* END MEDIA QUERIES */
