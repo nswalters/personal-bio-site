@@ -79,17 +79,13 @@ nav h2 i {
   justify-content: space-around;
 }
 
-#footerLinks li {
-  padding-left: 389px;
-  padding-right: 389px;
-}
-
 #footerLinks li:hover {
   background: lightgray;
 }
 
 #footerLinks h3 {
   display: flex;
+  justify-content: center;
   align-items: center;
   color: white;
 }
@@ -101,6 +97,7 @@ nav h2 i {
 #footerLinks a {
   text-decoration: none;
   color: white;
+  width: 33%;
 }
 
 #technologiesPage {
