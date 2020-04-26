@@ -103,3 +103,13 @@ nav h2 i {
 #technologiesPage {
   margin-top: 20px;
 }
+
+@media (max-width: 425px) {
+  #footerLinks i {
+    display: none;
+  }
+
+  #footerLinks h3 {
+    text-align: center;
+  }
+}
