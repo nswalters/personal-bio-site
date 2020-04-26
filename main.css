@@ -1,3 +1,5 @@
+/* START GENERAL STYLES */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,15 +13,18 @@
   justify-content: flex-start;
 }
 
+.shadow {
+  text-shadow: 1px 1px black;
+}
+
+/* END GENERAL STYLES */
+
+/* NAVBAR STYLES */
 nav {
   display: flex;
   align-items: center;
   background: darkgray;
   color: white;
-}
-
-.shadow {
-  text-shadow: 1px 1px black;
 }
 
 nav h2 i {
@@ -60,9 +65,21 @@ nav h2 i {
   color: white;
 }
 
+/* END NAVBAR STYLES */
+
+/* START MAIN STYLES */
+
 .mainWrap {
   flex: 1 0 auto;
 }
+
+#technologiesPage {
+  margin-top: 20px;
+}
+
+/* END MAIN STYLES */
+
+/* START FOOTER SYTLES */
 
 .page-footer {
   background: darkgray;
@@ -100,9 +117,9 @@ nav h2 i {
   width: 33%;
 }
 
-#technologiesPage {
-  margin-top: 20px;
-}
+/* END FOOTER SYTLES */
+
+/* START MEDIA QUERIES */
 
 @media (max-width: 425px) {
   #footerLinks i {
@@ -113,3 +130,5 @@ nav h2 i {
     text-align: center;
   }
 }
+
+/* END MEDIA QUERIES */
