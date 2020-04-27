@@ -1,6 +1,6 @@
 projects = [{
   title: "Cool Project",
-  screenshot: "https://picsum.photos/id/0/200",
+  screenshot: "https://picsum.photos/id/0/400/200",
   description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
   technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   available: true,
@@ -18,7 +18,7 @@ projects = [{
 },
 {
   title: "This project is NOT archived",
-  screenshot: "https://picsum.photos/id/2/200",
+  screenshot: "https://picsum.photos/id/2/400/200",
   description: "Testing the availability!",
   technologiesUsed: "Javascript!",
   available: true,

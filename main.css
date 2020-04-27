@@ -139,7 +139,7 @@ nav h2 i {
 
 .card-image {
   position: relative;
-  width: 200px;
+  width: 400px;
   height: 200px;
   overflow: hidden;
   display: block;
@@ -162,11 +162,12 @@ nav h2 i {
   margin: auto;
 }
 
-.card-image-text p {
+.card-image-text p{
   margin: auto;
   text-align: center;
   background-color: rgba(255,255,255,0.8);
   width: 100%;
+  padding: 0 25%;
 }
 
 #projectsPage {
