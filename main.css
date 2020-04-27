@@ -168,3 +168,9 @@ nav h2 i {
   background-color: rgba(255,255,255,0.8);
   width: 100%;
 }
+
+#projectsPage {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
