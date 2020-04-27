@@ -1,30 +1,30 @@
 projects = [{
-    title: "Cool Project",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
-    description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    available: true,
-    url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
-    githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
-  },
-  {
-    title: "This project is archived",
-    screenshot: "",
-    description: "Testing the availability!",
-    technologiesUsed: "Javascript!",
-    available: false,
-    url: "www.google.com",
-    githubUrl: "www.yahoo.com"
-  },
-  {
-    title: "This project is NOT archived",
-    screenshot: "",
-    description: "Testing the availability!",
-    technologiesUsed: "Javascript!",
-    available: true,
-    url: "www.reddit.com",
-    githubUrl: "www.cnn.com"
-  }
+  title: "Cool Project",
+  screenshot: "https://picsum.photos/id/0/400/200",
+  description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
+  technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  available: true,
+  url: "https://github.com/nss-evening-cohort-8/js-part-deux", // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+  githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux"
+},
+{
+  title: "This project is archived",
+  screenshot: "",
+  description: "Testing the availability!",
+  technologiesUsed: "Javascript!",
+  available: false,
+  url: "www.google.com",
+  githubUrl: "www.yahoo.com"
+},
+{
+  title: "This project is NOT archived",
+  screenshot: "https://picsum.photos/id/2/400/200",
+  description: "Testing the availability!",
+  technologiesUsed: "Javascript!",
+  available: true,
+  url: "www.reddit.com",
+  githubUrl: "www.cnn.com"
+}
 ]
 
 const buildCard = (title, screenshot, description, technologiesUsed, url, githubURL, altText = 'Screenshot of project') => {
@@ -36,10 +36,12 @@ const buildCard = (title, screenshot, description, technologiesUsed, url, github
     </div>
     <div class="card-image">
       <img src="${screenshot}" alt="${altText}">
+      <div class="card-image-text">
+        <p>${technologiesUsed}</p>
+      </div>
     </div>
     <div class="card-content">
       <p>${description}</p>
-      <p>${technologiesUsed}</p>
     </div>
     <div class="card-footer">
       <p>${url}</p>
