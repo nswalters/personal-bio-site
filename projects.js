@@ -1,3 +1,8 @@
+const showMenuOptions = () => {
+  myEle = document.getElementById("menuOptions");
+  myEle.classList.toggle("hidden");
+};
+
 projects = [{
   title: "Cool Project",
   screenshot: "https://picsum.photos/id/0/400/200",
