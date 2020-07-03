@@ -1,6 +1,138 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+$primary-purple: #521262;
+$secondary-purple: #6639A6;
+$primary-blue: #3490DE;
+$secondary-blue: #6FE7DD;
+$accent-orange: #FFC107;
+$navbar-height: 111px;
+$footer-height: 48px;
+$content-text: white;
+$navbar-border: 2px solid darkgray;
 
 body {
-  background-color: blue;
+  font-family: 'Playfair Display SC', serif;
+  padding-top: $navbar-height;
+}
+
+.fullContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  min-height: calc(100vh - #{$navbar-height});
+  padding-bottom: $footer-height;
+}
+
+.mainContent::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.95;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% - #{$footer-height});
+  background-image: url(https://cdn.magdeleine.co/wp-content/uploads/2017/03/joanna-kosinska-156308.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin-top: 15vh;
+}
+
+.content-text {
+  color: $content-text;
+}
+
+.projectsContent {
+  min-height: 100vh;
+  padding-top: $navbar-height;
+  padding-bottom: $footer-height;
+}
+
+.aboutMe {
+  min-height: 100vh;
+  padding-top: $navbar-height;
+  padding-bottom: $footer-height;
+}
+
+footer {
+  max-height: 5vh;
+  padding-top: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  color: $primary-blue;
+}
+
+#backend {
+  color: $accent-orange;
+  font-style: italic;
+}
+
+#frontend {
+  color: $secondary-blue;
+  font-style: italic;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: auto;
+  width: 150px;
+}
+
+#talkButton {
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: $primary-blue;
+  transition: 0.5s;
+}
+
+#talkButton:hover {
+  background-color: $secondary-purple;
+  border-color: $secondary-purple;
+}
+
+.myNavBarNav {
+  background-color: lightgray;
+}
+
+.myNav-link {
+  color: black !important;
+  font-size: 1.2rem;
+  transition: 0.75s;
+}
+
+.myNav-link:hover {
+  color: $secondary-purple !important;
+  font-weight: bold;
+}
+
+.myNav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+body>.myNavBarNav {
+  border-bottom: $navbar-border;
+}
+
+footer>.myNavBarNav {
+  border-top: $navbar-border;
 }
