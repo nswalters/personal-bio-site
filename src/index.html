@@ -12,7 +12,7 @@
 
   <div class="fullContainer">
     <!-- Navbar Component -->
-    <nav class="navbar navbar-expand-lg navbar-light myNavBarNav">
+    <nav class="navbar navbar-expand-lg navbar-light myNavBarNav navbar-fixed-left">
       <div id="allBrand">
         <a href="#" class="navbar-brand myNavbarBrand">
           <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -30,7 +30,8 @@
             </defs>
             <svg height="401px" style="zoom: 1;" id="svg1" width="200px" version="1.1"
               macsvgid="56AF8FC7-7D5A-4363-9FAB-536015DF1FAC-30684-000B00881D5EA46C" viewBox="0 0 200 401">
-              <title macsvgid="274FFE98-56A5-4BC9-903E-098B3EFBDDB1-30684-000B00881D626502" id="title1">My_Personal_Logo
+              <title macsvgid="274FFE98-56A5-4BC9-903E-098B3EFBDDB1-30684-000B00881D626502" id="title1">
+                My_Personal_Logo
               </title>
               <defs macsvgid="539AA928-E6FC-40E9-AA7C-90DC46EA34CF-30684-000B00881D6545FC" id="defs1">
                 <rect id="path-1" x="0" y="0" width="200" height="202.469136"
@@ -111,10 +112,15 @@
           </li>
           <li class="nav-item myNav-item">
             <a href="#aboutMe" class="nav-link myNav-link"><i
-                class="fas fa-user-alt nav-item-icon orange-text"></i>About Me</a>
+                class="fas fa-user-alt nav-item-icon orange-icon"></i>About Me</a>
           </li>
           <li class="nav-item myNav-item">
-            <a href="#projects" class="nav-link myNav-link"><i class="far fa-images nav-item-icon"></i>Projects</a>
+            <a href="#projects" class="nav-link myNav-link"><i
+                class="far fa-images nav-item-icon purple-icon"></i>Projects</a>
+          </li>
+          <li class="nav-item myNav-item">
+            <a href="#contact" class="nav-link myNav-link"><i
+                class="fas fa-address-card nav-item-icon blue-icon"></i>Contact</a>
           </li>
           <button class='btn btn-primary' id='talkButton'><i class="fas fa-mug-hot talk-coffee float-left"></i>Let's
             Talk</button>
@@ -135,24 +141,51 @@
       </div>
       <!-- About Me Component -->
       <div class="aboutMe" id="aboutMe">
-        <h1>About Me Stuff</h1>
+        <h2 class="section-header">About</h2>
+        <div class="text-center container" id="aboutMeContent">
+          <p class="text-left" id="personal-statement">Mission-focused full stack developer with a unique array of
+            experiences and a drive to make technology work <em>for you</em> rather than against.</p>
+          <p class="text-left personal-content">Throughout my career, I have always sought out positions where I
+            could be helping people and providing an impact. Those positions have varied widely -- everything from
+            lifeguard, to criminal justice, then information security, and finally development -- each of those
+            providing me a unique perspective on problem solving.</p>
+          <p class="text-left personal-content">As a developer, I look to harness the wide array of technologies
+            available to bring together a solution which changes the current reality of the user for the better.
+          </p>
+        </div>
       </div>
       <!-- Projects Component -->
       <div class="projectsContent" id="projects">
-        <h1>Projects will go here</h1>
+        <h2 class="section-header">Projects</h2>
+        <div class="text-center container" id="projectData">
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+          <p>test</p>
+        </div>
+      </div>
+      <div class="contactContent" id="contact">
+        <h2 class="section-header">Contact</h2>
+        <div class="contactLinks d-flex justify-content-center">
+          <ul>
+            <li class="my-4">
+              <a href="https://github.com/nswalters"><i
+                  class="fab fa-github fa-2x mx-3"></i>https://github.com/nswalters</a>
+            </li>
+            <li class="my-4">
+              <a href="https://www.linkedin.com/in/nswalters/"><i
+                  class="fab fa-linkedin fa-2x mx-3"></i>https://www.linkedin.com/in/nswalters</a>
+            </li>
+            <li class="my-4">
+              <a href="mailto:nswalters.s@gmail.com" class="link-unstyled"><i
+                  class="fas fa-envelope fa-2x mx-3"></i>nswalters@gmail.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <!-- Footer Componenet -->
-    <!-- <footer class="d-flex justify-content-between pr-3">
-    <nav class="navbar fixed-bottom navbar-light myNavBarNav">
-      <div class="my-auto">
-        <a href="https://github.com/nswalters"><i class="fab fa-github fa-2x mx-3"></i></a>
-        <a href="https://www.linkedin.com/in/nswalters/"><i class="fab fa-linkedin fa-2x mx-3"></i></a>
-        <a href="mailto:nswalters.s@gmail.com" class="link-unstyled"><i class="fas fa-envelope fa-2x mx-3"></i></a>
-      </div>
-      <small class="my-auto">Nicholas Walters © 2020</small>
-    </nav>
-  </footer> -->
+  </div>
   </div>
 </body>
 

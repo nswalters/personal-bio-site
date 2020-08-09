@@ -1,26 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 $primary-purple: #521262;
-$secondary-purple: #6639A6;
-$primary-blue: #3490DE;
-$secondary-blue: #6FE7DD;
-$accent-orange: #FFC107;
+$secondary-purple: #6639a6;
+$primary-blue: #3490de;
+$secondary-blue: #6fe7dd;
+$accent-orange: #ffc107;
 $content-text: white;
 $navbar-border: 2px solid darkgray;
 
-$orange-text: rgb(252, 150, 1);
+$orange-icon: rgb(252, 150, 1);
 
 body {
   // font-family: 'Playfair Display SC', serif;
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
 }
 
 .fullContainer {
   display: grid;
-  grid-template-columns: minmax(150px, 10%) 1fr;
+  grid-template-columns: 1fr;
+}
+
+.fullContent {
+  margin-left: 175px;
 }
 
 .mainContent {
@@ -48,27 +52,15 @@ body {
 
 .content-text {
   color: $content-text;
+  font-weight: 300;
 }
 
-.projectsContent {
-  min-height: 100vh;
-}
-
-.aboutMe {
-  min-height: 100vh;
-}
-
-footer {
-  max-height: 5vh;
-  padding-top: 0;
-}
-
-footer a {
+.contactContent a {
   text-decoration: none;
   color: inherit;
 }
 
-footer a:hover {
+.contactContent a:hover {
   color: $primary-blue;
 }
 
@@ -113,7 +105,7 @@ nav i {
 
 .myNavbarBrand {
   text-align: center;
-  display: block;
+  display: block !important;
   margin-right: 0;
 }
 
@@ -127,6 +119,7 @@ nav i {
   background-color: white;
   display: block;
   padding: 0;
+  box-shadow: 4px 0 5px -2px #888;
 }
 
 .myNav-link {
@@ -150,6 +143,67 @@ nav i {
   font-family: "Font Awesome 5 Free";
 }
 
-.orange-text {
-  color: $orange-text;
+.orange-icon {
+  color: $orange-icon;
+}
+
+.blue-icon {
+  color: $primary-blue;
+}
+
+.purple-icon {
+  color: $primary-purple;
+}
+
+.section-header {
+  padding-left: 25px;
+  background-color: $primary-blue;
+  color: $content-text;
+  line-height: 100px;
+  font-weight: 300;
+}
+
+/* navbar fixed left */
+.navbar-fixed-left {
+  width: 175px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none; /* Cancel default li float: left */
+  width: 175px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+#aboutMeContent {
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+
+#personal-statement {
+  color: $primary-purple;
+}
+
+.personal-content {
+  font-weight: 300;
+}
+
+.contactLinks ul {
+  list-style: none;
+}
+
+.contactLinks li a {
+  display: flex;
+  align-items: center;
 }
