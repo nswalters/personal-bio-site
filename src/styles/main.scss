@@ -14,7 +14,6 @@ $navbar-border: 2px solid darkgray;
 $orange-icon: rgb(252, 150, 1);
 
 body {
-  // font-family: 'Playfair Display SC', serif;
   font-family: "Roboto", serif;
 }
 
@@ -151,6 +150,10 @@ nav i {
   color: $primary-blue;
 }
 
+.red-icon {
+  color: rgb(202, 3, 3);
+}
+
 .purple-icon {
   color: $primary-purple;
 }
@@ -187,12 +190,14 @@ nav i {
 }
 
 #aboutMeContent {
-  font-size: 2rem;
-  margin: 2rem auto;
+  font-size: 1.5rem;
+  margin: 4rem auto;
 }
 
 #personal-statement {
   color: $primary-purple;
+  font-size: 2.25rem;
+  margin-bottom: 4rem;
 }
 
 .personal-content {
