@@ -16,7 +16,7 @@
     "title": "Bozo University"
   },
   "project02": {
-    "demoURL": "#",
+    "demoURL": "https://bear-watcher-67262.web.app/",
     "description": "This project focused on dynamically updating elements within the DOM while organizing code into specific components. With this project, I also focused on making it mobile friendly utilizing media queries to support multiple different formats based on viewport size.",
     "githubURL": "https://github.com/nswalters/bear-watcher",
     "imageURL": "https://i.imgur.com/W8qt6y5.png",
@@ -31,7 +31,7 @@
     "title": "Bear Watcher"
   },
   "project03": {
-    "demoURL": "#",
+    "demoURL": "https://simple-tamagotchi.web.app/",
     "description": "After a lot of generic Bootstrap styling, this project required me to use no styling framework, instead relying on custom Sass to provide any required styling. Additionally, this was an initial start at working with grid styling.",
     "githubURL": "https://github.com/nswalters/simple-tamagotchi",
     "imageURL": "https://i.imgur.com/ydit1LB.png",
