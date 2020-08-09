@@ -224,7 +224,7 @@ nav i {
 }
 
 .projCard .card-img-top {
-  object-fit: contain;
+  object-fit: cover;
   max-height: 396px;
 }
 
@@ -232,4 +232,8 @@ nav i {
   border: 2px solid $secondary-blue;
   border-radius: 5px;
   padding: 0 2rem;
+}
+
+.projCard .card-title {
+  font-size: 2rem;
 }
