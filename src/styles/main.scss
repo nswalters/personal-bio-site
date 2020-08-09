@@ -212,3 +212,24 @@ nav i {
   display: flex;
   align-items: center;
 }
+
+.btn-view-source {
+  background-color: $secondary-purple;
+  color: white;
+}
+
+.projCard {
+  margin: 5rem auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.projCard .card-img-top {
+  object-fit: contain;
+  max-height: 396px;
+}
+
+.projCard .projTech p {
+  border: 2px solid $secondary-blue;
+  border-radius: 5px;
+  padding: 0 2rem;
+}
