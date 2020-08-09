@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const getProjects = () => new Promise((resolve, reject) => {
-  axios.get('https://personal-projects-8e0ce.firebaseio.com/projects.json')
+  axios.get('https://nwalters-portfolio.firebaseio.com/projects.json')
     .then((response) => {
       const projectObjects = response.data;
       const projects = [];
