@@ -32,7 +32,7 @@
   },
   "project03": {
     "demoURL": "https://simple-tamagotchi.web.app/",
-    "description": "After a lot of generic Bootstrap styling, this project required me to use no styling framework, instead relying on custom Sass to provide any required styling. Additionally, this was an initial start at working with grid styling.",
+    "description": "After a lot of generic Bootstrap styling, this project required me to use no styling framework, instead relying on custom Sass to provide any required styling. Additionally, this was an initial start at working with grid styling. While very basic, it reinforced the need to understand exactly everything a CSS framework does behind the scenes for you.",
     "githubURL": "https://github.com/nswalters/simple-tamagotchi",
     "imageURL": "https://i.imgur.com/ydit1LB.png",
     "technologies": [
@@ -42,5 +42,18 @@
       "CSS Grid"
     ],
     "title": "Simple Tamagotchi"
+  },
+  "project04": {
+    "demoURL": "https://pants-culottes.web.app/",
+    "description": "This project was one of the firt group projects we embarked on. This required coordination on which team member was working on which feature, as well as our initial dive into Javascript (looping, updating the DOM, and handling form data), Bootstrap, and Github Projects.",
+    "githubURL": "https://github.com/nswalters/pants-culottes",
+    "imageURL": "https://i.imgur.com/Z2dI0hc.png",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "Github Projects"
+    ],
+    "title": "Piña Culotte-a"
   }
 }
