@@ -1,9 +1,15 @@
-# My Personal Page
+# Personal Bio Site
 
-## Running the Code
+![stability](https://img.shields.io/badge/status-WIP-lightgrey)
 
-1. Clone this repository to your local system.
+This is my personal biography site which details the projects and skills that I developed while participating in the [Nashville Software School - Full Stack Web Developer Python/Django](https://nashvillesoftwareschool.com).
 
-2. Run `npm install` from the root directory to install the required modules for the project.
+## Screenshot
+![screenshot](./personal-bio-site.gif)
 
-3. Once completed, run `npm start` from the root directory. This should open the project in your default web browser.
+
+## Deployed Project
+https://nwalters-portfolio.web.app/
+
+## Technologies Used
+[![JavaScript](https://img.shields.io/badge/-JavaScript-2c9fcc?style=flat-square)](#) [![SASS](https://img.shields.io/badge/-SASS-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![Firebase](https://img.shields.io/badge/-Firebase-2c9fcc?style=flat-square)](#) [![Axios](https://img.shields.io/badge/-Axios-2c9fcc?style=flat-square)](#)
