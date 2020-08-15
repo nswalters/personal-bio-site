@@ -126,6 +126,7 @@ nav i {
   color: black !important;
   font-size: 1.2rem;
   transition: 0.75s;
+  font-weight: 300;
 }
 
 .myNav-link:hover {
@@ -169,6 +170,12 @@ nav i {
   color: $content-text;
   line-height: 100px;
   font-weight: 300;
+}
+
+#profilePicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
 }
 
 /* navbar fixed left */
