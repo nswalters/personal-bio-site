@@ -15,8 +15,8 @@ const projectCardMaker = (project) => {
 
   domString += `
       </div>
-      <a href="${project.demoURL}" class="btn btn-primary">Live Demo<i class="fas fa-external-link-alt pl-2"></i></a>
-      <a href="${project.githubURL}" class="btn btn-view-source">View Source<i class="fab fa-github pl-2"></i></a>
+      <a href="${project.demoURL}" target="_blank" class="btn btn-primary">Live Demo<i class="fas fa-external-link-alt pl-2"></i></a>
+      <a href="${project.githubURL}" target="_blank" class="btn btn-view-source">View Source<i class="fab fa-github pl-2"></i></a>
     </div>
   </div>
   `;
