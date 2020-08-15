@@ -12,6 +12,7 @@ $content-text: white;
 $navbar-border: 2px solid darkgray;
 
 $orange-icon: rgb(252, 150, 1);
+$brown-icon: brown;
 
 body {
   font-family: "Roboto", serif;
@@ -142,6 +143,10 @@ nav i {
   font-family: "Font Awesome 5 Free";
 }
 
+.brown-icon {
+  color: $brown-icon;
+}
+
 .orange-icon {
   color: $orange-icon;
 }
@@ -174,17 +179,18 @@ nav i {
   height: 100%;
 }
 
-.navbar-fixed-left .navbar-nav > li {
-  float: none; /* Cancel default li float: left */
+.navbar-fixed-left .navbar-nav>li {
+  float: none;
+  /* Cancel default li float: left */
   width: 175px;
 }
 
-.navbar-fixed-left + .container {
+.navbar-fixed-left+.container {
   padding-left: 160px;
 }
 
 /* On using dropdown menu (To right shift popuped) */
-.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+.navbar-fixed-left .navbar-nav>li>.dropdown-menu {
   margin-top: -50px;
   margin-left: 140px;
 }
@@ -236,4 +242,11 @@ nav i {
 
 .projCard .card-title {
   font-size: 2rem;
+}
+
+.techCard img {
+  max-width: 100px;
+  min-height: 100px;
+  object-fit: fill;
+  margin-top: 1rem;
 }

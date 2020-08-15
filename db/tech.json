@@ -1,0 +1,38 @@
+{
+  "tech01": {
+    "name": "HTML5",
+    "imageURL": "https://i.imgur.com/mdKjvBy.png"
+  },
+  "tech02": {
+    "name": "Sass",
+    "imageURL": "https://i.imgur.com/ZFKo3QV.png"
+  },
+  "tech03": {
+    "name": "Javascript",
+    "imageURL": "https://i.imgur.com/NIkk6uE.png"
+  },
+  "tech04": {
+    "name": "Firebase",
+    "imageURL": "https://i.imgur.com/rmycp69.png"
+  },
+  "tech05": {
+    "name": "Webpack",
+    "imageURL": "https://i.imgur.com/Vyizp9h.png"
+  },
+  "tech06": {
+    "name": "Bootstrap",
+    "imageURL": "https://i.imgur.com/D8mIm2J.png"
+  },
+  "tech07": {
+    "name": "CSS3",
+    "imageURL": "https://i.imgur.com/HVs4YHO.png"
+  },
+  "tech08": {
+    "name": "jQuery",
+    "imageURL": "https://i.imgur.com/5qzNwAQ.gif"
+  },
+  "tech09": {
+    "name": "Github",
+    "imageURL": "https://i.imgur.com/EwkGuen.png"
+  }
+}
