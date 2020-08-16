@@ -2,7 +2,7 @@
 
 ![stability](https://img.shields.io/badge/status-WIP-lightgrey)
 
-This is my personal biography site which details the projects and skills that I developed while participating in the [Nashville Software School - Full Stack Web Developer Python/Django](https://nashvillesoftwareschool.com).
+This is my personal biography site which details the projects and skills that I developed while participating in the [Nashville Software School - Full Stack Web Developer Python/Django](http://nashvillesoftwareschool.com).
 
 ## Screenshot
 ![screenshot](./personal-bio-site.gif)
